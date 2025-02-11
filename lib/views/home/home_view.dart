@@ -43,7 +43,7 @@ class HomeView extends StatelessWidget {
                           ClipRRect(
                             borderRadius: BorderRadius.circular(30),
                             child: Image.asset(
-                              'images/portre.png',
+                              'assets/images/portre.png',
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -53,30 +53,6 @@ class HomeView extends StatelessWidget {
                   ],
                 ),
               ),
-            ),
-            Row(
-              children: [
-                AnimatedHoverWidget(
-                  assetName: 'images/clickia.png',
-                  controller: controller,
-                  workInfo: const DorakWorkInfoColumn(),
-                ),
-                AnimatedHoverWidget(
-                  assetName: 'images/clickia.png',
-                  controller: controller,
-                  workInfo: const DorakWorkInfoColumn(),
-                ),
-                AnimatedHoverWidget(
-                  assetName: 'images/clickia.png',
-                  controller: controller,
-                  workInfo: const DorakWorkInfoColumn(),
-                ),
-                AnimatedHoverWidget(
-                  assetName: 'images/clickia.png',
-                  controller: controller,
-                  workInfo: const DorakWorkInfoColumn(),
-                ),
-              ],
             ),
             const CenteredView(child: IntroBelowResponsiveBuilder()),
             const CustomTitle(text: 'Tools and Technologies'),
@@ -95,6 +71,31 @@ class HomeView extends StatelessWidget {
               column: VpnColumn(),
             ),
             const CustomTitle(text: 'Work Experience', verticalPadding: 50),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                AnimatedHoverWidget(
+                  assetName: 'assets/images/clickia.png',
+                  controller: controller,
+                  workInfo: const DorakWorkInfoColumn(),
+                ),
+                // AnimatedHoverWidget(
+                //   assetName: 'images/clickia.png',
+                //   controller: controller,
+                //   workInfo: const DorakWorkInfoColumn(),
+                // ),
+                // AnimatedHoverWidget(
+                //   assetName: 'images/clickia.png',
+                //   controller: controller,
+                //   workInfo: const DorakWorkInfoColumn(),
+                // ),
+                // AnimatedHoverWidget(
+                //   assetName: 'images/clickia.png',
+                //   controller: controller,
+                //   workInfo: const DorakWorkInfoColumn(),
+                // ),
+              ],
+            ),
           ],
         ),
       ),

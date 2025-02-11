@@ -8,7 +8,7 @@ class SmartGuidesColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Column(
       children: [
-        Image(image: AssetImage('images/smart_guides.png'), height: 350),
+        Image(image: AssetImage('assets/images/smart_guides.png'), height: 350),
         SizedBox(height: 80),
         ProjectInfo(
           title: 'Smart Guides',

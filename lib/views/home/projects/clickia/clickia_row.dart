@@ -24,7 +24,7 @@ class ClickiaRow extends StatelessWidget {
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: const Image(
-                  image: AssetImage('images/clickia.png'),
+                  image: AssetImage('assets/images/clickia.png'),
                   fit: BoxFit.cover,
                   height: 230,
                 ),

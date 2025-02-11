@@ -12,7 +12,7 @@ class VpnRow extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.only(right: 60.0),
             child: Image(
-              image: AssetImage('images/smart_guides.png'),
+              image: AssetImage('assets/images/smart_guides.png'),
               height: 350,
             ),
           ),
